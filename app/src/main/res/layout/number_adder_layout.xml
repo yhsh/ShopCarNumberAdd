@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_reduce"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/customize_shape_goods_reduce_bg"
+        android:gravity="center"
+        android:text="-"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/et_count"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:inputType="number"
+        android:background="@drawable/customize_shape_goods_count_bg"
+        android:gravity="center"
+        android:text="1"
+        android:maxLength="8"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_add"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/customize_shape_goods_add_bg"
+        android:gravity="center"
+        android:text="+"
+        android:textColor="#000000" />
+</LinearLayout>
